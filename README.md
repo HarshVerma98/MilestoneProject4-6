@@ -15,3 +15,5 @@ Create a shoppingList property of type [String] to hold all the items the user w
 Create your UIAlertController with the style .alert, then call addTextField() to let the user enter text.
 When you have a new shopping list item, make sure you insert() it into your shoppingList array before you call the insertRows(at:) method of your table view – your app will crash if you do this the wrong way around.
 You might be tempted to try to use UIActivityViewController to share the finished shopping list by email, but if you do that you’ll hit a problem: you have an array of strings, not a single string
+
+![screen01](https://user-images.githubusercontent.com/49474526/128633229-aa6acaeb-e269-49fb-82d9-8b3f55f24ec3.png)
